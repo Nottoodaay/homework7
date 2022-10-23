@@ -1,0 +1,511 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 130px;
+    display: flex;
+    flex-direction: row;
+}
+
+h1{
+    font-size: 20px;
+    padding-top: 60px;
+    padding-left: 82px;
+    font-weight: 900;
+}
+
+h1 a{
+    color: black;
+}
+
+header nav{
+    width: 564px;
+    height: 44px;
+    margin-top: 60px;
+    margin-left: 230px;
+}
+
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center ;
+}
+
+header nav ul li a{
+    color: black;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 5px 10px;
+}
+
+
+.toggle-off-icon{
+    width: 34px;
+    height: 20px;
+    font-size: 34px;
+    margin-left: 84px;
+    margin-top: 50px;
+} 
+
+.button{
+    width: 180px;
+    height: 62px;
+    background-color: rgba(253, 199, 45, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 61px;
+    margin-top: 44px;
+    margin-left: 100px;
+}
+
+.button a{
+    color: black;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 5px 10px;
+}
+
+/* ---------------Index Html ------------ */
+
+
+.container{
+    width: 1320px;
+    height: 724px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.container section{
+    width: 466px;
+    height: 420px;
+}
+
+.container section h2{
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.container section .p1{
+    width: 394px;
+    height: 90px;
+    color: black;
+    opacity: 0.5;
+    margin-top: 36px;
+}
+
+.container section .getStarted{
+    width: 180px;
+    height: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 61px;
+    background-color: rgba(253, 199, 45, 1);
+}
+
+.container section .getStarted a{
+    color: black;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 5px 10px;
+}
+
+.jemali{
+    width: 854px;
+    height: 724px;
+    background-image: url(../img/indexhtml.jpg);
+}
+
+
+/* ---------------About Html--------------- */
+
+.aboutContainer{ 
+    width: 1286px;
+    height: 1212px;
+    display: flex; 
+    flex-wrap: wrap; 
+    margin: 120px auto;
+}
+
+.aboutJemali{
+    width: 674px;
+    height: 506px;
+    background-image: url(../img/abouthtml.png);
+}
+
+.aboutSection{
+    width: 510px;
+    height: 272px;
+    margin-left: 100px;
+}
+
+.aboutSection h2{
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.aboutSection p{
+    font-size: 20;
+    color: black;
+    opacity: 0.5;
+    margin-top: 32px;
+}
+
+.aboutSection2{
+    width: 502px;
+    height: 289px;
+}
+
+.aboutSection2 h2{
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.aboutSection2 p{
+    font-size: 20;
+    color: black;
+    opacity: 0.5;
+    margin-top: 43px;
+}
+
+.aboutJemali2{
+    width: 746px;
+    height: 492px;
+    background-image: url(../img/safe.png);
+}
+
+
+
+
+/* --------------services Html------------- */
+
+
+.servicesH2{
+    text-align: center;
+    margin-top: 96px;
+}
+
+.servicesH21{
+    text-align: center;
+}
+
+.serviceContainer{
+    width: 1332px;
+    height: 382px;
+    margin: 86px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.paymentDone{
+    width: 380px;
+    height: 380px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 8px rgba(224, 224, 224, 1);
+}
+
+.paymentDone h2{
+    text-align: center;
+    margin-top: 34px;
+}
+
+.paymentDonePic{
+    margin: 32px auto; 
+    width: 202px;
+    height: 120px;
+    background-image: url(../img/Payment\ Done.png);
+}
+
+.paymentDone p{
+    opacity: 0.5;
+    margin-left: 72px;
+    margin-right: 72px;
+}
+
+.paymentDone h3{
+    text-align: center;
+    margin-top: 26px;
+}
+
+.paymentDone h3 a{
+    color: black;
+}
+
+.findYourProject{
+    width: 380px;
+    height: 380px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 8px rgba(224, 224, 224, 1);
+}
+
+.findYourProject h2{
+    text-align: center;
+    margin-top: 34px;
+}
+
+.findYourProjecPic{
+    margin: 32px auto; 
+    width: 146px;
+    height: 148px;
+    background-image: url(../img/FindYourProduct.png);
+}
+
+.findYourProject p{
+    opacity: 0.5;
+    margin-left: 72px;
+    margin-right: 72px;
+}
+
+.findYourProject h3{
+    text-align: center;
+    margin-top: 26px;
+}
+
+.findYourProject h3 a{
+    color: black;
+}
+
+.productRecived{
+    width: 380px;
+    height: 380px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 8px rgba(224, 224, 224, 1);
+}
+
+.productRecived h2{
+    text-align: center;
+    margin-top: 34px;
+}
+
+.productRecivedPic{
+    margin: 32px auto; 
+    width: 152px;
+    height: 142px;
+    background-image: url(../img/ProductReceived.png);
+    background-size: 100%;
+}
+
+.productRecived p{
+    opacity: 0.5;
+    margin-left: 72px;
+    margin-right: 72px;
+}
+
+.productRecived h3{
+    text-align: center;
+    margin-top: 26px;
+}
+
+.productRecived h3 a{
+    color: black;
+}
+
+.delivery{
+    width: 1248px;
+    height: 498px;
+    margin: 158px auto;
+    display: flex;
+}
+
+.delivery .background{
+    width: 543px;
+    height: 498px;
+    background-image: url(../img/Serviceshtml.png);
+}
+
+.delivery section{
+    margin-left: 300px;
+    height: 375px;
+    width: 510px;
+}
+
+.delivery section h2{
+    font-size: 40px;
+    font-weight: 158%;
+}
+
+.delivery section .p5{
+    opacity: 0.5;
+}
+
+.serviceButtons{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    height: 60px;
+    margin-top: 64px;
+}
+
+.brand{
+    width: 180px;
+    height: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 61px;
+    background-color: rgba(253, 199, 45, 1);
+    font-size: 20px;
+}
+
+.brand a{
+    color: black;
+    pad: 5px 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.brand i{
+    font-size: 20px;
+}
+
+
+/* ---------------------Contact Html----------------- */
+
+.contact{
+    width: 1240px;
+    height: 244px;
+    display: flex;
+    justify-content: space-between;
+    margin: 140px auto;
+    align-items: center;
+}
+
+
+.sectionOne{
+    width: 440px;
+    height: 244px;
+}
+
+.sectionOne p{
+    width: 300px;
+}
+.sectionTwo{
+    width: 280px;
+    height: 145px;
+}
+
+.contactButton{
+    width: 180px;
+    height: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 61px;
+    background-color: rgba(253, 199, 45, 1);
+    font-size: 20px;
+}
+
+.contactButton a{
+    color: black;
+    padding: 5px 10px;
+    font-weight: 900    ;
+}
+
+/* -----------footer------------ */
+
+footer{
+    width: 100%;
+    height: 450px;
+    background-color: rgba(254, 227, 149, 1);
+    display: flex;
+    position: relative;
+}
+
+.footerContainer{
+    margin: 94px auto;
+    width: 1120px;
+    height: 165px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerOne{
+    width: 184px;
+    height: 98px;
+
+}
+
+.footerOne h2{
+    font-size: 20px;
+}
+
+.footerOne p{
+    margin-top: 22px;
+    opacity: 0.5;
+}
+
+
+.footerTwo{
+    width: 128px;
+    height: 166px;
+}
+
+.footerTwo h2{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.footerTwo p{
+    opacity: 0.5;
+}
+
+.footerThree{
+    width: 144px;
+    height: 134px;
+}
+
+.footerThree h2{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.footerThree p{
+    opacity: 0.5;
+}
+
+.footerFor{
+    width: 122px;
+    height: 134px;
+}
+
+.footerFor h2{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.footerFor p{
+    opacity: 0.5;
+}
+
+.footerIcons{
+    width: 160px;
+    height: 27px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerIcons p{
+    font-size: 27px;
+}
+
+
+.copy{
+    position: absolute;
+    width: 213px;
+    height: 22px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    bottom: 48px;
+}
